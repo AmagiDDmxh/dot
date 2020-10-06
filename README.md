@@ -21,7 +21,8 @@ code --list-extensions >> vs_code_extensions_list.txt
 install
 
 ```bash
-cat vs_code_extensions_list.txt | xargs -n 1 code --install-extension
+cat vs_code_extensions_list.txt | xargs -n 1 code --install-extension # Unix or Linux
+cat .\vs_code_extensions_list | ForEach-Object {code --install-extension $_} # Wins
 ```
 
 Config
