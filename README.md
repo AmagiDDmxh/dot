@@ -33,7 +33,5 @@ Config
 ## Refs
 
 [Frontend Setup Guide](https://github.com/phodal/setup.guide)
-
-
 [https://github.com/mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)  🔧 .files, including ~/.macos — sensible hacker defaults for macOS 
-
+[NPM rc](https://github.com/cnpm/binary-mirror-config/blob/master/package.json)
